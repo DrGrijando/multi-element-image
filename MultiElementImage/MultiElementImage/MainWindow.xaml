@@ -1,0 +1,18 @@
+﻿<Window x:Class="MultiElementImage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MultiElementImage"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>        
+        <local:MultiImage x:Name="image1" Width="Auto" Height="Auto"  Margin="10,10,208,10" />
+        <RadioButton Content="Laptop" GroupName="mainIcon" HorizontalAlignment="Left" Margin="335,97,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1"/>
+        <RadioButton Content="Trash can" GroupName="mainIcon" HorizontalAlignment="Left" Margin="335,117,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_2"/>
+        <RadioButton Content="Warning" GroupName="stateIcon" HorizontalAlignment="Left" Margin="335,158,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_3"/>
+        <RadioButton Content="Battery" GroupName="stateIcon" HorizontalAlignment="Left" Margin="335,178,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_4"/>
+        <RadioButton Content="Error" GroupName="stateIcon" HorizontalAlignment="Left" Margin="335,198,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_5"/>
+        <!--<Grid>-->
+<!--<Image Name="image1" HorizontalAlignment="Left" Height="100" Margin="209,198,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Name="image2" HorizontalAlignment="Left" Height="50" Margin="259,198,0,0" VerticalAlignment="Top" Width="50"/>
+        </Grid>-->
+    </Grid>
+</Window>
